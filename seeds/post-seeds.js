@@ -2,7 +2,7 @@ const { Post } = require('../models');
 
 const postdata = [
   {
-    title: 'Donec posuere metus vitae ipsum.',
+    title: 'French posts, in french. Puppies are allowed at the park.',
     post_url: 'https://buzzfeed.com/in/imperdiet/et/commodo/vulputate.png',
     user_id: 10
   },
@@ -97,11 +97,7 @@ const postdata = [
     post_url: 'http://java.com/diam/neque/vestibulum/eget/vulputate/ut/ultrices.png',
     user_id: 6
   },
-  {
-    title: 'Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.',
-    post_url: 'https://java.com/at/nibh/in.png',
-    user_id: 7
-  }
+  
 ];
 
 const seedPosts = () => Post.bulkCreate(postdata);
