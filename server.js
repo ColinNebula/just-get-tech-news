@@ -5,7 +5,7 @@ const exphbs = require('express-handlebars');
 const helpers = require('./utils/helpers');
 
 
-
+// Ports used
 const app = express();
 const PORT = process.env.PORT || 3001;
 
